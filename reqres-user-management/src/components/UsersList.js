@@ -76,9 +76,15 @@ const UsersList = () => {
 
   const fetchUsers = async () => {
     setLoading(true);
-    const response = await axios.get(`https://reqres.in/api/users?page=${page}`);
-    setUsers(response.data.data);
-    setLoading(false);
+    try {
+      const response = await axios.get(`https://reqres.in/api/users?page=${page}`);
+      setUsers(response.data.data);
+    } catch (error) {
+      console.error("Error fetching users:", error);
+      // Optionally, you can set an error state here
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -86,7 +92,7 @@ const UsersList = () => {
       navigate('/');
     }
     fetchUsers(); // Call fetchUsers to load users
-  }, [page, token, navigate, refetch,fetchUsers]); // Ensure fetchUsers is called
+  }, [page, token, navigate, refetch]); // Ensure fetchUsers is called
 
   const handleEdit = (userId) => {
     navigate(`/edit/${userId}`);
