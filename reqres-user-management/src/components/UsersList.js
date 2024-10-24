@@ -86,7 +86,7 @@ const UsersList = () => {
       navigate('/');
     }
     fetchUsers(); // Call fetchUsers to load users
-  }, [page, token, navigate, refetch]); // Ensure fetchUsers is called
+  }, [page, token, navigate, refetch,fetchUsers]); // Ensure fetchUsers is called
 
   const handleEdit = (userId) => {
     navigate(`/edit/${userId}`);
