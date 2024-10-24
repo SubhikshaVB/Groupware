@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/groupware/static/css/main.d3d5bd93.css",
-    "main.js": "/groupware/static/js/main.bd07ffe4.js",
-    "index.html": "/groupware/index.html",
-    "main.d3d5bd93.css.map": "/groupware/static/css/main.d3d5bd93.css.map",
-    "main.bd07ffe4.js.map": "/groupware/static/js/main.bd07ffe4.js.map"
+    "main.css": "/groupware/reqres-user-management/static/css/main.d3d5bd93.css",
+    "main.js": "/groupware/reqres-user-management/static/js/main.bd07ffe4.js",
+    "index.html": "/groupware/reqres-user-management/index.html",
+    "main.d3d5bd93.css.map": "/groupware/reqres-user-management/static/css/main.d3d5bd93.css.map",
+    "main.bd07ffe4.js.map": "/groupware/reqres-user-management/static/js/main.bd07ffe4.js.map"
   },
   "entrypoints": [
     "static/css/main.d3d5bd93.css",
