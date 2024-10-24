@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/groupware/static/css/main.d3d5bd93.css",
+    "main.js": "/groupware/static/js/main.bd07ffe4.js",
+    "index.html": "/groupware/index.html",
+    "main.d3d5bd93.css.map": "/groupware/static/css/main.d3d5bd93.css.map",
+    "main.bd07ffe4.js.map": "/groupware/static/js/main.bd07ffe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3d5bd93.css",
+    "static/js/main.bd07ffe4.js"
+  ]
+}
